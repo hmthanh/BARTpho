@@ -22,9 +22,7 @@ pho outperforms the strong baseline mBART
 and improves the state-of-the-art. We re-
 lease BARTpho to facilitate future research
 and applications of generative Vietnamese
-NLP tasks. Our BARTpho models are pub-
-licly available at: https://github.com/
-VinAIResearch/BARTpho.
+NLP tasks. Our BARTpho models are publicly available at: https://github.com/VinAIResearch/BARTpho.
 
 ## 1 Introduction
 The masked language model BERT (Devlin et al.,
@@ -391,8 +389,7 @@ feature extraction with transformers to show
 its potential use for other downstream tasks.4 More
 usage examples of BARTpho with both fairseq
 and transformers can be found at the BART-
-pho’s GitHub repository: https://github.
-com/VinAIResearch/BARTpho.
+pho’s GitHub repository: https://github.com/VinAIResearch/BARTpho
 
 ## 6 Conclusion
 In this paper, we have presented BARTphosyllable
