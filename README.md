@@ -309,13 +309,15 @@ solve annotation conflicts (here, he does not know
 which model produces which summary). Table 1
 shows final scores where BARTpho obtains a better
 human evaluation result than mBART.from transformers import AutoModel, AutoTokenizer
-# BARTphosyllable
+
+* BARTphosyllable
 tokenizer = AutoTokenizer.from_pretrained("vinai/bartpho-syllable")
 bartpho_syllable = AutoModel.from_pretrained("vinai/bartpho-syllable")
 input_text = 'Chúng tôi là những nghiên cứu viên.'
 input_ids = tokenizer(input_text, return_tensors='pt')
 features = bartpho_syllable(∗∗input_ids)
-# BARTphoword
+
+* BARTphoword
 tokenizer = AutoTokenizer.from_pretrained("vinai/bartpho-word")
 bartpho_word = AutoModel.from_pretrained("vinai/bartpho-word")
 input_text = 'Chúng_tôi là những nghiên_cứu_viên .'
